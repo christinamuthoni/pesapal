@@ -3,16 +3,20 @@ import markdown
 
 def generate_index(output_dir):
     homepage_content = """
-    # Welcome to My Website!
+   "Welcome to Jaba site!
 
-    This is the homepage of my awesome website. Enjoy your stay!
+    We're thrilled to have you here on our platform. Feel free to explore and make 
+    yourself at home as you discover the wonderful content we have to offer. Enjoy your visit!"
     """
     write_html_file(output_dir, "index.html", homepage_content)
 
 def generate_articles(output_dir):
     articles = [
-        {"title": "Article 1", "content": "Content of Article 1"},
-        {"title": "Article 2", "content": "Content of Article 2"}
+        {"title": "Article 1", 
+        "content": "Unlocking Creativity: A Journey into the Art of Innovation"},
+
+        {"title":"Article 2" , 
+        "content": "The Quest for the Perfect Cup of Coffee: A Comedy of Caffeine"}
     ]
     for article in articles:
         article_content = f"# {article['title']}\n\n{article['content']}"
@@ -20,9 +24,12 @@ def generate_articles(output_dir):
 
 def generate_about_page(output_dir):
     about_content = """
-    # About Us
+    About Us
 
-    This is the about page of our website. We are a team dedicated to creating awesome content.
+    Welcome to Jaba site, where curiosity meets creativity, and inspiration knows no bounds. We're a passionate team of storytellers, 
+    thinkers, and dreamers dedicated to bringing you engaging content that ignites your imagination and enriches your journey through life.
+
+    Come curious, leave inspired. 
     """
     write_html_file(output_dir, "about.html", about_content)
 

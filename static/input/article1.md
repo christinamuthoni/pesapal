@@ -1,3 +1,4 @@
 # Article 1
 
-Content of Article 1 goes here.
+Unlocking Creativity: A Journey into the Art of Innovation"
+

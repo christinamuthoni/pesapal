@@ -1,3 +1,3 @@
-# Welcome to My Website!
+"Welcome to Jaba site!
 
-This is the homepage of my awesome website. Enjoy your stay!
+We're thrilled to have you here on our platform. Feel free to explore and make yourself at home as you discover the wonderful content we have to offer. Enjoy your visit!"

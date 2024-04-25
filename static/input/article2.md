@@ -1,3 +1,4 @@
 # Article 2
 
-Content of Article 2 goes here.
+The Quest for the Perfect Cup of Coffee: A Comedy of Caffeine"
+
